@@ -1,195 +1,105 @@
-/* Tryon.module.css */
 .colorbox {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
-    bottom: 20px;
-    right: 40px;
-    border-radius: 60px;
-    
-   
+    padding: 0;
+    border-radius: 30px; /* Adjust based on your design */
+    margin-bottom: 20px; /* Add spacing between elements */
 }
+
 .colorbox button:hover {
     transform: scale(1.2);
     margin-top: 10px;
 }
 
-.insertbotton{
+.insertbotton {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5px;
-    border-radius: 0px;
-    
-    
+    border-radius: 30px; /* Adjust based on your design */
 }
+
 .insertbotton button {
-    margin-top: 105px;
-    background-color: #f6f1ee;
-    color: black;
+    margin-top: 5%; /* Use percentage for margin */
     border: none;
-    border-radius: 60px;
+    border-radius: 30px; /* Adjust based on your design */
     cursor: pointer;
-}
-
-.insertbotton button:hover {
-    background-color: #fbdcce;
-  
-}
-
-.insertbotton input[type="file"] {
-    display: none;
-}
-
-.insertbotton img {
-    margin-top: 0%;
-    width: 80px; /* Set a fixed width for the image */
-    height: 80px; /* Maintain aspect ratio */
-    border-radius: 5px;
-    
 }
 
 .insertbotton select {
-    margin-top: 20px;
+    margin-top: 5%;
     padding: 5px;
     border-radius: 5px;
 }
 
-.insertbotton select:focus {
-    outline: none;
-}
-
-.insertbotton select option {
-    padding: 10px;
-}
-
-.insertbotton select option:hover {
-    background-color: #f0f0f0;
-}
-
-.insertreset{
-    padding: 0px;
+.insertreset {
     position: absolute;
-    transform: translate(900%, 370%);
-    
-    
+    bottom: 5%;
+    right: 5%;
 }
+
 .insertreset button {
-    
     background-color: #f6f1ee;
     border: none;
     border-radius: 50px;
     cursor: pointer;
 }
-
-.insertreset button:hover {
-    background-color: #fbdcce;
-  
-}
-
-
 
 .insertreset img {
-    margin-top: 5px;
-    width: 30px; /* Set a fixed width for the image */
-    height: 30px; /* Maintain aspect ratio */
+    width: 20px;
+    height: 20px;
     border-radius: 5px;
-    
-}
-.insertreset select option:hover {
-    background-color: #f0f0f0;
 }
 
-.Detect{
-   position: fixed;
-   left: 50%;
-   transform: translate(-50%, -20%);
-    align-items: center;
-    font-size: 20px;
-    color: black;
-
-}
-/* Tryon.module.css */
-
-.insertcolor{
-    
-    padding: 20px;
+.insertcolor {
+    padding: 5%;
     position: absolute;
-    bottom: 65px;
+    bottom: 15%; /* Adjust based on your design */
     right: 50%;
-    transform: translate(50%, 0%);
-    
+    transform: translateX(50%);
 }
+
 .insertcolor button {
     margin-top: 0px;
-    background-color: #f6f1ee;
-    color: black;
-    border: none;
-    border-radius: 50px;
+    border-radius: 30px; /* Adjust based on your design */
     cursor: pointer;
-}
-
-.insertcolor button:hover {
-    background-color: #fbdcce;
-  
-}
-
-.insertcolor input[type="file"] {
-    display: none;
 }
 
 .insertcolorimg {
-    margin-top: 1px;
-    width: 30px; /* Set a fixed width for the image */
-    height: 30px; /* Maintain aspect ratio */
-    border-radius: 5px;
-    
-}
-
-.insertcolor select {
-    margin-top: 0px;
-    padding: 1px;
+    width: 20px;
+    height: 20px;
     border-radius: 5px;
 }
 
-.insertcolor select:focus {
-    outline: none;
-}
-
-.insertcolor select option {
-    padding: 1px;
-}
-
-.insertcolor select option:hover {
-    background-color: #f0f0f0;
-}
-.Detect{
+.Detect {
     background-color: pink;
-    display:flex;
-    padding: 5px;
-    border-radius: 600px;
+    display: flex;
+    padding: 10px;
+    border-radius: 60%; /* Adjust based on your design */
     font-family: 'Work Sans', sans-serif;
     color: black;
     flex-direction: column;
     font-size: medium;
-    margin-top: -60px;
-   align-items: center;
-    
-    
-   
+    align-items: center;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.colorimg{
-    transform: translate(20%, 30%);
-    padding: 20px;
+
+.colorimg {
+    padding: 5%;
     position: absolute;
-   
-    
+    right: 5%;
+    bottom: 15%; /* Adjust based on your design */
 }
-.showlesscolor{
+
+.showlesscolor {
     display: flex;
     flex-direction: row;
     align-items: center;
-    transform: translate(-100%,1400%);
-    
+    position: absolute;
+    right: 5%;
+    top: 10%; /* Adjust based on your design */
 }
