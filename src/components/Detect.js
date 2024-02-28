@@ -6,7 +6,7 @@ export default function Detect(){
         <div className={styles.detect}>
          
           <Link href="/recommended">
-            back</Link>
+          back</Link>
             
             
 

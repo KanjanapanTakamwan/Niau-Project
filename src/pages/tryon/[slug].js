@@ -140,9 +140,9 @@ function CapturePic({ product }) {
                 {imageSrc && <img src={imageSrc} alt="Captured Image" />}
                 {!imageSrc && <Webcam
                     audio={false}
-                    height={360}
+                    height={346}
                     screenshotFormat="image/jpeg"
-                    width={600}
+                    width={560}
                     videoConstraints={videoConstraints}
                     ref={webcamRef}
                 />}
