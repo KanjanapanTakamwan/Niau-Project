@@ -20,8 +20,8 @@ function CapturePic({ product }) {
     const canvasRef = useRef(null);
 
     const videoConstraints = {
-        width: 1280,
-        height: 1280,
+        width: 3024,
+        height: 4032,
         facingMode: "user"
         
     };
@@ -140,9 +140,9 @@ function CapturePic({ product }) {
                 {imageSrc && <img src={imageSrc} alt="Captured Image" />}
                 {!imageSrc && <Webcam
                     audio={false}
-                    height={346}
+                    height={300}
                     screenshotFormat="image/jpeg"
-                    width={560}
+                    width={640}
                     videoConstraints={videoConstraints}
                     ref={webcamRef}
                 />}
