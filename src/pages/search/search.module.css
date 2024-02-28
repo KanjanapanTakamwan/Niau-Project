@@ -20,7 +20,7 @@
   .product {
     width: 85%;
     max-width: 350px;
-    margin: 10px;
+    margin: 3px;
     padding: 10px;
     text-align: center;
   }
@@ -70,4 +70,5 @@
   min-height: 300px;
   border-radius: 10px;
   font-family: 'Work Sans', sans-serif;
+  margin-left: 3% ;
 }

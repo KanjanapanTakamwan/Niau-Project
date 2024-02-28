@@ -12,7 +12,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 60%;
+    width: 90%;
     position: relative;
     margin-bottom: 20px;
 }
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 60%;
+    width: 90%;
 }
 .img {
     width: 100%;
@@ -38,7 +38,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: flex-start;
-    gap: 20px;
+    gap: 15px;
     width: 60%;
 }
 
@@ -68,6 +68,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin:0 auto ;
+    width: 120% ;
 }
 
 .content {
