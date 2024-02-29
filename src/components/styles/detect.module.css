@@ -1,32 +1,26 @@
-.Detect{
-  position: absolute;
-  display: flex;
-  margin-top: auto;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  font-family: 'Work Sans', sans-serif;
- 
-}
+
 
 .detect{
   position: fixed;
-  font-family: 'Work Sans', sans-serif;
-  margin-top: 332px;
+  top: 0;
+  margin-top: 360px;
   left: 0;
   z-index: 99999;
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   height: fit-content;
   background-color:#F6C270;
   color: black;
+  font-size: medium;
+  font-family: sans-serif;
 }
 .detectContainer {
   display: flex;
   flex-direction: row;
-  
+  align-items: center;
   background-color: #F6C270;
-
+  justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 30px;
 }
@@ -36,16 +30,18 @@
   text-decoration: none;
   padding: 0 10px;
   font-size: 16px;
-  
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  border-radius: 100px;
 }
 
 .detect a:hover {
   background-color: peru;
-  border-radius: 50px;
 }
 .detect{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
- 
+  justify-content: center;
 }
