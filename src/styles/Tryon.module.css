@@ -1,11 +1,11 @@
 /* Tryon.module.css */
-.colorbox {
+.colorBox {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     bottom: 20px;
-    right: 40px;
+    right: 100px;
     border-radius: 60px;
     
    
@@ -28,7 +28,7 @@
     
 }
 .insertbotton button {
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 105px;
     background-color: #f6f1ee;
     color: black;
