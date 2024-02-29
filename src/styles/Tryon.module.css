@@ -75,7 +75,7 @@
 .insertreset{
     padding: 0px;
     position: absolute;
-    transform: translate(900%, 370%);
+    transform: translate(845%, 370%);
     
     
 }
@@ -184,7 +184,7 @@
    
 }
 .colorimg{
-    transform: translate(50%, 30%);
+    transform: translate(100%, 30%);
     padding: 20px;
     position: absolute;
    
@@ -196,8 +196,4 @@
     align-items: center;
     transform: translate(-50%,160%);
     
-}
-.img{
-    width: 640px;
-    height: 1136px;
 }
