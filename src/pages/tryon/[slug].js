@@ -20,8 +20,8 @@ function CapturePic({ product }) {
     const canvasRef = useRef(null);
 
     const videoConstraints = {
-        width: 3280,
-        height: 3280,
+        width: 680,
+        height: 310,
         facingMode: "user"
         
     };
@@ -136,13 +136,16 @@ function CapturePic({ product }) {
             <div>
             
               
-                <input id="file" type="file" accept="image/*" style={{ display: 'none' }} />
+                <input id="file" type="file" accept="image/*" style={{ display: 'none' }} 
+                 className={styles.img}
+                />
                 {imageSrc && <img src={imageSrc} alt="Captured Image" />}
                 {!imageSrc && <Webcam
                     audio={false}
-                    height={imageSrc ? heightOfCapturedImage : 360}  // ปรับค่า height ให้เท่ากับภาพที่ถ่ายได้
+                      // ปรับค่า height ให้เท่ากับภาพที่ถ่ายได้
                     screenshotFormat="image/jpeg"
-                    width={imageSrc ? widthOfCapturedImage : 600}  // ปรับค่า width ให้เท่ากับภาพที่ถ่ายได้
+                    
+                 // ปรับค่า width ให้เท่ากับภาพที่ถ่ายได้
                     videoConstraints={videoConstraints}
                     ref={webcamRef}
                 />}
