@@ -20,8 +20,8 @@ function CapturePic({ product }) {
     const canvasRef = useRef(null);
 
     const videoConstraints = {
-        width: 680,
-        height: 310,
+        width: 80,
+        height: 110,
         facingMode: "user"
         
     };
