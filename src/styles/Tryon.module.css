@@ -29,7 +29,7 @@
     
 }
 .insertbotton button {
-    margin-left: 120px;
+    margin-left: 112px;
     margin-top: 105px;
     background-color: #f6f1ee;
     color: black;
@@ -184,7 +184,7 @@
    
 }
 .colorimg{
-    transform: translate(125%, 23%);
+    transform: translate(125%, 20%);
     padding: 20px;
     position: absolute;
    
