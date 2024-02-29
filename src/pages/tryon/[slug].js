@@ -78,6 +78,13 @@ function CapturePic({ product }) {
             nextImage.src = imageSrc;
         }
     };
+
+    useEffect(() => {
+        if (imageSrc) {
+            applyLipFilter();
+        }
+    }, [lipColor]); // Apply lip filter when selectedLipColor changes
+    
     
     const faceMyDetect = async (imageSrc) => {
         if (imageSrc) {
