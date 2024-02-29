@@ -16,15 +16,19 @@
 }
 
 .insertbotton{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+    display:flex;
     padding: 5px;
-    border-radius: 0px;
+    border-radius: 600px;
+    flex-direction: column;
+    
+   align-items: center;
+    
     
     
 }
 .insertbotton button {
+    margin-left: 20px;
     margin-top: 105px;
     background-color: #f6f1ee;
     color: black;
