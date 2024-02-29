@@ -21,7 +21,7 @@ function CapturePic({ product }) {
 
     const videoConstraints = {
         width: 580,
-        height: 260,
+        height: 200,
         facingMode: "user"
         
     };
