@@ -109,7 +109,7 @@
 .Detect{
    position: fixed;
    left: 50%;
-   transform: translate(-50%, -800%);
+   transform: translate(-20%, -800%);
     align-items: center;
     font-size: 20px;
     color: black;
