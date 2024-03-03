@@ -55,6 +55,7 @@
     gap: 10px;
     color: #1E1E1E;
     font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     flex-direction: column;
     text-decoration: none;
@@ -78,13 +79,16 @@
     justify-content: flex-start;
     flex-direction: column;
     padding: 0 10px 10px 10px;
+    font-family: 'Work Sans', sans-serif;
 }
 .select{
     text-decoration: underline;
     text-transform: capitalize;
+    font-family: 'Work Sans', sans-serif;
 }
 .headBox{
     position: relative;
+    font-family: 'Work Sans', sans-serif;
 }
 .option{
     position: absolute;

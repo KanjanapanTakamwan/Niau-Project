@@ -9,6 +9,7 @@
   height: fit-content;
   background-color:#fbdcce;
   color: black;
+  font-family: 'Work Sans', sans-serif;
 }
 .tryonContainer {
   display: flex;
@@ -17,6 +18,7 @@
   align-items: center;
   width: 100%;
   gap: 30px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .tryonbar a {
@@ -24,6 +26,7 @@
   text-decoration: none;
   padding: 0 10px;
   font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .tryonbar a:hover {

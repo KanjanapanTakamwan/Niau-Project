@@ -6,6 +6,7 @@
     display: flex;
     gap:10px;
     color: #1E1E1E;
+    font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-top: 40px;
@@ -51,6 +52,7 @@
 }
 .text{
     display: flex;
+    font-family: 'Work Sans', sans-serif;
 }
 .boximg{
     position: relative;
@@ -76,6 +78,7 @@
     flex-direction: column;
     font-size: 16px;
     font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
 }
 .header{
     font-size: 16px;
@@ -84,6 +87,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Work Sans', sans-serif;
 }
 .subheader{
     font-size: 18px;
@@ -93,4 +97,5 @@
 }
 .colorCode{
     margin-left: 10px;
+    font-family: 'Work Sans', sans-serif;
 }
