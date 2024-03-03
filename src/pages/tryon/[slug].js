@@ -160,7 +160,6 @@ function CapturePic({ product }) {
                 {pictureTaken && (
                     <div >
                         <div className={styles.colorimg} >
-                        <img src="/color.png" width={60} height={60} alt="not found"/>
                         </div>
                      
                         <p className={styles.Detect}
