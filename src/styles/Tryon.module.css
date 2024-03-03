@@ -3,7 +3,7 @@
 .colorbox {
     display: flex;
     flex-direction: row;
-    position: absolute;
+    position: fixed;
     padding: 0px;
     bottom: 20px;
     right: -75px;
@@ -109,7 +109,7 @@
 .Detect{
    position: fixed;
    left: 50%;
-   transform: translate(-50%, -20%);
+   transform: translate(-50%, -800%);
     align-items: center;
     font-size: 20px;
     color: black;
