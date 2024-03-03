@@ -1,11 +1,12 @@
 /* Tryon.module.css */
+
 .colorbox {
     display: flex;
     flex-direction: row;
     position: absolute;
     padding: 0px;
     bottom: 20px;
-    right: -125px;
+    right: -75px;
     border-radius: 60px;
     
    
@@ -29,7 +30,7 @@
     
 }
 .insertbotton button {
-    margin-left: 112px;
+    margin-left: 10px;
     margin-top: 105px;
     background-color: #f6f1ee;
     color: black;
@@ -75,7 +76,7 @@
 .insertreset{
     padding: 0px;
     position: absolute;
-    transform: translate(950%, 370%);
+    transform: translate(600%, 370%);
     
     
 }
@@ -184,7 +185,7 @@
    
 }
 .colorimg{
-    transform: translate(125%, 20%);
+    transform: translate(10%, 20%);
     padding: 20px;
     position: absolute;
    
@@ -194,6 +195,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    transform: translate(-50%,160%);
+    transform: translate(-80%,160%);
     
 }
