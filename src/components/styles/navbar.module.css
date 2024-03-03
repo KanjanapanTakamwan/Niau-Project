@@ -28,7 +28,8 @@
 }
 
 .navbar a:hover {
-  background-color: #666;
+  background-color: peru;
+  border-radius: 60px;
 }
 .navbox{
   display: flex;

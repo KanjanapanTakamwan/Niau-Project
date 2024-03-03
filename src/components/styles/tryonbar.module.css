@@ -30,7 +30,8 @@
 }
 
 .tryonbar a:hover {
-  background-color: #666;
+  background-color: palevioletred;
+  border-radius: 60px;
 }
 .tryonbox{
   display: flex;
