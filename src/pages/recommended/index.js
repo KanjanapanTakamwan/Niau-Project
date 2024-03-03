@@ -77,7 +77,7 @@ export default function Warm() {
                   Model : {product?.model}
                 </div>
                 <div>
-                  $ {product?.price} / pc
+                 {product?.price} baht / pc
                 </div>
               </div>
             </Link>
