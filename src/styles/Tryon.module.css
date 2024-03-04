@@ -31,7 +31,7 @@
     
 }
 .insertbotton button {
-    margin-left: 112px;
+    margin-left: 102px;
     margin-top: 105px;
     background-color: #f6f1ee;
     color: black;
@@ -77,7 +77,7 @@
 .insertreset{
     padding: 0px;
     position: absolute;
-    transform: translate(950%, 370%);
+    transform: translate(970%, 370%);
     
     
 }
