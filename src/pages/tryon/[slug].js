@@ -30,6 +30,7 @@ function CapturePic({ product }) {
         loadModels();
     }, []);
 
+
     const loadModels = async () => {
         await Promise.all([
             faceapi.nets.tinyFaceDetector.loadFromUri("/models"),

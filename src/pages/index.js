@@ -7,6 +7,11 @@ export default function Home() {
     <div className={styles.container}>
       <header className={styles.header}>
         <h1>Welcome to Niau</h1>
+        <section className={styles.disclaimer}>
+          <img src="Report.png" alt="Disclaimer" className={styles.disclaimerImage} />
+          <p className={styles.disclaimerText}>Warning: "Error 908" is just a notification to request permission for accessing the camera through this application only.
+If the user grants permission through the app settings, it will have no effect on the functionality of the application.</p>
+        </section>
       </header>
       <main className={styles.main}>
         <section className={styles.section}>

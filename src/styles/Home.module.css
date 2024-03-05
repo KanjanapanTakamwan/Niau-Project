@@ -53,3 +53,24 @@
     margin-top: 30px;
   }
 }
+
+.disclaimer {
+  display: flex;
+  align-items: center;
+  background-color: #ffcccc; /* Red background color */
+  color: #ff0000; /* Red text color */
+  padding: 3px;
+}
+
+.disclaimerImage {
+  width: 100px; /* Adjust the width of the image to match the desired size */
+  height: auto; /* Maintain aspect ratio */
+  
+}
+
+.disclaimerText {
+  flex: 1;
+  padding: 2px; /* Remove default margin */
+  font-size: 80%;
+  margin-right: 2%;
+}
