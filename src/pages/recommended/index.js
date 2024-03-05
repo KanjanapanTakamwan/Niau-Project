@@ -52,7 +52,7 @@ export default function Warm() {
               dropdown ?
                 <div className={styles.option}>
                   <button onClick={() => handleChange('warm')}>Warm Tone</button>
-                  <button onClick={() => handleChange('neutral')}>Natural Tone</button>
+                  <button onClick={() => handleChange('neutral')}>Neutral Tone</button>
                   <button onClick={() => handleChange('cool')}>Cool Tone</button>
                 </div> : null
             }
